@@ -45,11 +45,34 @@ and open the template in the editor.
                                             </div>
                                             <div class="card-body">
                                                 <form>
-                                                    <div class="input-group mb-2">
+                                                    <div class="input-group mb-3">
                                                         <div class="input-group-prepend">
                                                             <span class="input-group-text">Name</span>
                                                         </div>
                                                         <input type="text" class="form-control">
+                                                    </div>
+                                                    <div class="input-group mb-3">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">Image</span>
+                                                        </div>
+                                                        <input type="file" class="form-control imgUser">
+                                                        <div class="input-group-append">
+                                                            <img id="userImg" src="images/doll.jpg" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="input-group mb-3">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">Email</span>
+                                                        </div>
+                                                        <input type="text" class="form-control">
+                                                    </div>
+                                                    <div class="input-group mb-3">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">Country</span>
+                                                        </div>
+                                                        <select name="country" class="form-control">
+                                                            <option value="null">select country</option>
+                                                        </select>
                                                     </div>
                                                 </form>
                                             </div>
