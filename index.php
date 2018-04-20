@@ -51,7 +51,7 @@ and open the template in the editor.
                                                         </div>
                                                         <input id="name" type="text" class="form-control name" name="name">
                                                         <div class="input-group-append">
-                                                            <span class="input-group-text setPrev">Reset</span>
+                                                            <button class="input-group-text setPrev btn btn-dark">Reset</button>
                                                         </div>
                                                     </div>
                                                     <div class="input-group mb-3">
@@ -69,7 +69,7 @@ and open the template in the editor.
                                                         </div>
                                                         <input id="email" type="text" class="form-control email" name="email">
                                                         <div class="input-group-append">
-                                                             <span class="input-group-text setPrev">Reset</span>
+                                                             <button class="input-group-text setPrev btn btn-dark">Reset</button>
                                                         </div>
                                                     </div>
                                                     <div class="input-group mb-3">

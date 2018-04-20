@@ -1,5 +1,10 @@
 (function ($) {
     $(function () {
+        $("button").on({
+            click:function(event){
+                event.preventDefault();
+            }
+        });
         //name email data get from some.txt
         $.post("some.txt", function (data, status) {
             if (status === "success") {
