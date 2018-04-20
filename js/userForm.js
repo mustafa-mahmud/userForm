@@ -1,10 +1,5 @@
 (function ($) {
     $(function () {
-        //modal show always
-        $("#userForm").modal({
-            backdrop: "static",
-            keyboard: false
-        });
         //name email data get from some.txt
         $.post("some.txt", function (data, status) {
             if (status === "success") {
