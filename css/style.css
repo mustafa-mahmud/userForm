@@ -24,6 +24,13 @@
     width: 79px !important;
     height: 49px !important;
 }
+.myOne .input-group-prepend{
+    width: 25% !important;
+}
+.myOne .input-group-prepend .input-group-text{
+    width: 100% !important;
+}
+
 .userForm .card{
     border: none !important;
     border-radius: 0 !important;

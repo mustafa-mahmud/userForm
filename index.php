@@ -80,7 +80,35 @@ and open the template in the editor.
                                                             <option value="null">select country</option>
                                                         </select>
                                                     </div>
+                                                    <div class="input-group myOne">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <span>gender</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <span>male</span>&nbsp;
+                                                                <input name="gender" type="radio">
+                                                            </div>
+                                                        </div>
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <span>female</span>&nbsp;
+                                                                <input name="gender" type="radio">
+                                                            </div>
+                                                        </div>
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">
+                                                                <span>others</span>&nbsp;
+                                                                <input name="gender" type="radio">
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </form>
+                                            </div>
+                                            <div class="card-footer">
+                                                <p class="btn btn-success pr-3 pl-3 float-right">save</p>
                                             </div>
                                         </div>
                                     </div>
