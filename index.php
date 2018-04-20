@@ -45,13 +45,13 @@ and open the template in the editor.
                                             </div>
                                             <div class="card-body">
                                                 <form>
-                                                    <div class="input-group mb-3 at">
+                                                    <div class="input-group mb-3">
                                                         <div class="input-group-prepend">
                                                             <span class="input-group-text">Name</span>
                                                         </div>
                                                         <input id="name" type="text" class="form-control name" name="name">
                                                         <div class="input-group-append">
-                                                            <button type="button" class="btn setPrev">Reset</button>
+                                                            <span class="input-group-text setPrev">Reset</span>
                                                         </div>
                                                     </div>
                                                     <div class="input-group mb-3">
@@ -69,7 +69,7 @@ and open the template in the editor.
                                                         </div>
                                                         <input id="email" type="text" class="form-control email" name="email">
                                                         <div class="input-group-append">
-                                                            <button type="button" class="btn setPrev">Reset</button>
+                                                             <span class="input-group-text setPrev">Reset</span>
                                                         </div>
                                                     </div>
                                                     <div class="input-group mb-3">

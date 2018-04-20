@@ -6,6 +6,9 @@
 }
 .userForm{
 }
+.setPrev{
+    cursor: pointer;
+}
 #userForm .modal-content{
     background:  #154360  !important;
     border-radius: 0 !important;
