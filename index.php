@@ -108,7 +108,7 @@ and open the template in the editor.
                                                 </form>
                                             </div>
                                             <div class="card-footer">
-                                                <p class="btn btn-success pr-3 pl-3 float-right">save</p>
+                                                <p class="btn btn-success pr-4 pl-4 float-right">save</p>
                                             </div>
                                         </div>
                                     </div>
